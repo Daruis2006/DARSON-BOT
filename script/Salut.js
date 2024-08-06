@@ -28,10 +28,10 @@ const handleEvent = async ({ event, api }) => {
 		const prefix = "";
 		let sticker = data[Math.floor(Math.random() * data.length)];
 		let juswa = ["Have you eaten?", "What are you doing?", "How are you senpai?", "I'm a chat bot nice to meet you", "Do you need any help?", "Is there anything on your mind?",
-				"Tell me about your day",
+				"Tell me about your day", "Connais-tu mon maître ?...https://www.facebook.com/DarsonDev",
 				"Have you watched any good movies lately?",
 				"What's your favorite hobby?",
-				"Do you believe in aliens?", "I'm updating my commands, What are you doing?", "Can you interact with my admin (Cliff Vincent)", "You're so beautiful/handsome binibini/ginoo", "I love you mwa */kiss your forehead.", "Are you bored? talk to my admin", "How are you my dear", "Sana okay kalang.", "Are you ok?", "Be safe, Mwaa.", "Wag magpapagutom mahal.", `Use ${prefix}help to see my commands. `];
+				"Do you believe in aliens?", "I'm updating my commands, What are you doing?", "Can you interact with my admin (Darson Stone)", "You're so beautiful/handsome binibini/ginoo", "I love you mwa */kiss your forehead.", "Are you bored? talk to my admin", "How are you my dear", "Sana okay kalang.", "Are you ok?", "Be safe, Mwaa.", "Wag magpapagutom mahal.", `Use ${prefix}help to see my commands. `];
 		let juswa1 = juswa[Math.floor(Math.random() * juswa.length)];
 
 		let moment = require("moment-timezone");
