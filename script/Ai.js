@@ -1,13 +1,13 @@
 const axios = require('axios');
 
 module.exports.config = {
-		name: "Ai",
+		name: "🍏🍧𝗗𝗔𝗥𝗦𝗢𝗡 𝗦𝗧𝗢𝗡𝗘🍧🍏",
 		version: 1.0,
 		credits: "OtinXSandip",
 		description: "AI",
 		hasPrefix: false,
 		usages: "{pn} [prompt]",
-		aliases: ["megan","AE"],
+		aliases: ["DARSON","NEERELA"],
 		cooldown: 0,
 };
 
@@ -15,7 +15,7 @@ module.exports.run = async function ({ api, event, args }) {
 		try {
 				const prompt = args.join(" ");
 				if (!prompt) {
-						await api.sendMessage("Hey I'm your virtual assistant, ask me a question.", event.threadID);
+						await api.sendMessage("HEY ÇA VA TOI ?...😕.", event.threadID);
 						return;
 				}
 
